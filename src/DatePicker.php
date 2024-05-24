@@ -7,7 +7,7 @@
  * @version 1.4.8
  */
 
-namespace kartik\date;
+namespace prodcd\date;
 
 use Yii;
 use yii\helpers\Html;
