@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kartik\\date\\": "src"
+            "prodcd\\date\\": "src"
         }
     },
     "extra": {
