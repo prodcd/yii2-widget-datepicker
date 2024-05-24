@@ -332,6 +332,11 @@ class DatePicker extends InputWidget
      */
     protected function renderInput()
     {
+        if ($this->type == self::TYPE_INPUT) {
+            if (empty($this->options['readonly'])) {
+                $this->options['readonly'] = true;
+            }
+        }
         if ($this->type == self::TYPE_INLINE) {
             if (empty($this->options['readonly'])) {
                 $this->options['readonly'] = true;

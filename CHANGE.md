@@ -1,6 +1,12 @@
 Change Log: `yii2-widget-datepicker`
 ====================================
 
+## Version 1.4.9
+
+**日期:** 2024-05-24
+
+- INPUT模式，默认`readonly=true`
+
 ## Version 1.4.8
 
 **Date:** 28-Oct-2021
